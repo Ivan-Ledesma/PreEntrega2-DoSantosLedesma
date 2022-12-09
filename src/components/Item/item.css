@@ -1,0 +1,13 @@
+.card{
+    width: 450px;
+    background-color: #ffc500;
+    margin: 10px;
+}
+.card-name{
+    background-color: #997600;
+    padding: 10px 5px;
+}
+
+.card-info > img{
+    width: 100%;
+}

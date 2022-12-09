@@ -1,13 +1,16 @@
 import React from "react";
+import cartWidget from './cartWidget.css'
 
-const cartWidget = () =>{
+const CartWidget = () =>{
     return(
-        <ul className="navbar-nav me-auto">
-            <li className="nav-link">
-                <button className="btn btn-danger">Carrito</button>
+        <ul className="cartWidget">
+            <li className="">
+                <button className="">
+                    <i className="fas fa-shopping-cart"></i>
+                </button>
             </li>
             <p>0</p>
         </ul>
     );
 }
-export default cartWidget;
+export default CartWidget;

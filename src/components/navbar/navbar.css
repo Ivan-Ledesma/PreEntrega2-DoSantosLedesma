@@ -1,0 +1,17 @@
+.nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(74, 74, 74);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.nav > a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}

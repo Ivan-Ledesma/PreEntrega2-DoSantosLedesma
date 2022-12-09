@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "idCategoria":1,
+        "nombre":"Mago Oscuro",
+        "tipo": "Monstruo",
+        "rareza": "ur",
+        "precio": 40000,
+        "stock": 2,
+        "img": "mago-oscuro.jpg"
+    },
+    {
+        "id":2,
+        "idCategoria":1,
+        "nombre":"Maga Oscura",
+        "tipo": "Monstruo",
+        "rareza": "sr",
+        "precio": 30000,
+        "stock": 4,
+        "img": "maga-oscura.jpg"
+    },
+    {
+        "id":3,
+        "idCategoria":2,
+        "nombre":"Polimerización",
+        "tipo": "Magia",
+        "rareza": "sr",
+        "precio": 45000,
+        "stock": 4,
+        "img": "fusion.jpg"
+    },
+    {
+        "id":4,
+        "idCategoria":2,
+        "nombre":"Olla de la avaricia",
+        "tipo": "Magia",
+        "rareza": "ur",
+        "precio": 60000,
+        "stock": 1,
+        "img": "olla-avaricia.jpg"
+    },
+    {
+        "id":5,
+        "idCategoria":3,
+        "nombre":"Cilindro Mágico",
+        "tipo": "trampa",
+        "rareza": "ur",
+        "precio": 70000,
+        "stock": 2,
+        "img": "cilindro-magico.jpg"
+    },
+    {
+        "id":6,
+        "idCategoria":3,
+        "nombre":"Fuerza de espejo",
+        "tipo": "Magia",
+        "rareza": "sr",
+        "precio": 45000,
+        "stock": 2,
+        "img": "fuerza-espejo.jpg"
+    }
+]
