@@ -6,7 +6,7 @@ import CartWidget from '../CartWidget/CartWidget';
 function App(){
     return(
         <nav className="nav">
-          <a className="" href="#">Home</a>
+          <a className="" href="/">Home</a>
           <Categorias></Categorias>
           <CartWidget></CartWidget>
         </nav>

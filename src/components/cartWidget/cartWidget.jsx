@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import cartWidget from './cartWidget.css'
 
 const CartWidget = () =>{
@@ -6,7 +7,9 @@ const CartWidget = () =>{
         <ul className="cartWidget">
             <li className="">
                 <button className="">
-                    <i className="fas fa-shopping-cart"></i>
+                    <Link to={"/cart"}>
+                        <i className="fas fa-shopping-cart"></i>
+                    </Link>
                 </button>
             </li>
             <p>0</p>
